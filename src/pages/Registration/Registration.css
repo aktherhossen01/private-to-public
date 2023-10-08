@@ -1,0 +1,6 @@
+.design-color{
+    
+  background: -webkit-linear-gradient(#2609a7, rgb(170, 13, 209));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

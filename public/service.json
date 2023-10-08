@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/wsbW9br/javascript.png",
+        "title": "JavaScript Dev Conferences",
+        "name": "Jhankar Mahbub",
+        "description": "JavaScript developer conferences provide a platform for developers, enthusiasts, and industry experts to come together and explore the latest trends, technologies, and best practices in the world of JavaScript. These events offer valuable opportunities for networking, learning, and staying up-to-date with the ever-evolving JavaScript ecosystem. One prominent conference is JSConf, a global series of events held in various locations, including the United States and Europe. JSConf gathers JavaScript developers from around the world to share their knowledge and experiences. Attendees can expect talks on topics such as frontend and backend development, JavaScript frameworks (e.g., React, Angular, Vue), web performance optimization, and more",
+        "cost": 450,
+        "date":"24/12/2023"
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/nmpz1L5/react.png",
+        "title": "React js Developer Conferences",
+        "name": "Md Akther Hosen",
+        "description": "React JS developer conferences, such as ReactConf and React Europe, gather developers to explore React's latest trends and innovations. These events offer technical talks, workshops, and networking opportunities. Attendees can learn from React experts, share insights, and stay updated on React's evolving ecosystem. With a focus on React's frontend development capabilities, these conferences are essential for React developers looking to enhance their skills and stay at the forefront of web development.",
+        "cost": 450,
+        "date":"28/12/2023"
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/nbXtqZ3/python.jpg",
+        "title": "Python Developer Conferences",
+        "name": "FreeCodeCamp",
+        "description": "Python developer conferences are vital events for the Python programming community. These gatherings bring together developers, enthusiasts, and experts to share knowledge, collaborate, and stay updated on the latest developments in Python and related technologies. Events like PyCon, DjangoCon, and EuroPython offer attendees a platform to attend talks, workshops, and tutorials on topics ranging from web development and data science to machine learning and automation. They also provide networking opportunities,",
+        "cost": 450,
+        "date":"08/12/2023"
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/w6Nngkm/88.jpg",
+        "title": "English Department Conferences",
+        "name": "Nasir Hossin",
+        "description": "English department conferences are important gatherings for scholars, educators, and students interested in literature, language, and communication. These events offer opportunities to present research, discuss critical ideas, and explore the latest trends in literature, linguistics, and writing. Participants can engage in workshops, panel discussions, and keynote speeches, enhancing their knowledge and networking within the academic community.",
+        "cost": 450,
+        "date":"28/12/2023"
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/TMRtvj7/psy.jpg",
+        "title": "Psychology Department Conferences",
+        "name": "Md iqbal",
+        "description": "Psychology department conferences are pivotal forums for researchers, practitioners, and students to delve into the latest developments in the field of psychology. These events facilitate the exchange of groundbreaking research findings, evidence-based practices, and innovative therapies. Attendees can participate in presentations, symposia, and workshops covering diverse areas such as clinical psychology, behavioral neuroscience, and knowledge dissemination, enriching the understanding of human behavior and mental processes.",
+        "cost": 450,
+        "date":"28/12/2023"
+    },
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/nmpz1L5/react.png",
+        "title": "React Library Developer Conferences",
+        "name": "Md Akther Hosen",
+        "description": "React JS developer conferences, such as ReactConf and React Europe, gather developers to explore React's latest trends and innovations. These events offer technical talks, workshops, and networking opportunities. Attendees can learn from React experts, share insights, and stay updated on React's evolving ecosystem. With a focus on React's frontend development capabilities, these conferences are essential for React developers looking to enhance their skills and stay at the forefront of web development.",
+        "cost": 450,
+        "date":"28/12/2023"
+    }
+]
