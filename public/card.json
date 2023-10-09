@@ -1,0 +1,31 @@
+[
+    {
+        
+            "id": 1,
+            "picture": "https://i.ibb.co/m4VqxML/50519-archculib-02-thumb.jpg",
+            "title": "Department of Agriculture",
+            "name": "Rahima",
+            "description": "The Department of Agriculture oversees food production, farming practices, and rural development, supporting the nation's agricultural industry and sustainability.",
+           
+            "date":"24/12/2024"
+        
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/whCmg5F/dowsdfgdfgnload.png",
+        "title": "Advocacy",
+        "name": "subasini",
+        "description": "Advocacy involves promoting causes or interests, influencing policies, and raising awareness to bring positive change or address important social issues.",
+       
+        "date":"24/12/2025"
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/whCmg5F/dowsdfgdfgnload.png",
+        "title": "Advocacy",
+        "name": "subasini",
+        "description": "Advocacy involves promoting causes or interests, influencing policies, and raising awareness to bring positive change or address important social issues.",
+       
+        "date":"24/12/2025"
+    }
+]

@@ -41,6 +41,7 @@ const router = createBrowserRouter([
       },
       {
         path:'/about',
+        loader:()=>fetch('/card.json'),
         element:<PrivateRoute><About></About></PrivateRoute>
       }
     ]

@@ -23,6 +23,8 @@ const Registration = () => {
           setError('one uppercase special character')
           return
         }
+
+        
        signUp(email,password)
        .then(res =>console.log(res.user))
        .catch(err =>console.log(err))
