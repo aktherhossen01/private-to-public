@@ -4,6 +4,7 @@ import Navbar from "../Navbar/Navbar";
 import Services from "../Services/Services";
 import Footer from "../Footer/Footer";
 import ContactFrom from "../ContactFrom/ContactFrom";
+import Team from "../../Team/Team";
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
         {users.map(user=><Services key={user.id} user={user}></Services>)}
         </div>
         </div>
+        <Team></Team>
         <ContactFrom></ContactFrom>
         <Footer></Footer>
        </div>
