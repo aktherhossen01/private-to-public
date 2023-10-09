@@ -9,7 +9,7 @@ const Navbar = () => {
     const links = <>
         <li className="text-xl font-bold"><NavLink to={'/'}>Home</NavLink></li>
         <li className="text-xl font-bold"><NavLink to={'/about'}>About</NavLink></li>
-        <li className="text-xl font-bold"><NavLink to={'/services'}>Services</NavLink></li>
+        <li className="text-xl font-bold"><NavLink to={'/service'}>Services</NavLink></li>
         <li className="text-xl font-bold"><NavLink to={'/login'}>Login</NavLink></li>
         <li className="text-xl font-bold"><NavLink to={'/registration'}>Registration</NavLink></li>
      
@@ -32,7 +32,7 @@ const Navbar = () => {
         {links}
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-xl">Conference Hole</a>
+    <a className="btn btn-ghost normal-case text-xl font-extrabold">Conference Hall</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -44,7 +44,7 @@ const Navbar = () => {
 
   <div className="navbar-end">
   {user ? 
-      <button onClick={handleLogeOut} className="btn">Log Out</button>:<Link to={'/login'}><button className="btn">Login</button>
+      <button onClick={handleLogeOut} className="btn font-bold">Log Out</button>:<Link to={'/login'}><button className="btn font-bold">Login</button>
       </Link>
     }  
   </div>

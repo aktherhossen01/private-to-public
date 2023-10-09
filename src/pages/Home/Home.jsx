@@ -15,7 +15,7 @@ const Home = () => {
          <div className="max-w-7xl mx-auto">
             <Navbar></Navbar>
             <Banner></Banner>
-            <h1 className="text-4xl text-center font-bold py-4">Our pad Educational Conferences</h1>
+            <h1 className="text-4xl text-center font-bold py-4">Our paid Educational Conferences</h1>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 mt-4 grid-cols-1 mx-auto">
         {users.map(user=><Services key={user.id} user={user}></Services>)}
         </div>

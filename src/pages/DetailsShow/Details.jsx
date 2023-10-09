@@ -4,8 +4,8 @@
 const Details = ({card}) => {
     const {title,picture,date,cost,description}= card
     return (
-        <div className="hero min-h-screen bg-red-50">
-  <div className="hero-content rounded-lg bg-slate-200 flex-col lg:flex-row">
+        <div className="hero min-h-screen ">
+  <div className="hero-content shadow-lg rounded-lg bg-slate-200 flex-col lg:flex-row">
     <img src={picture} className="max-w-sm rounded-lg shadow-2xl" />
     <div>
       <h1 className="text-4xl font-bold">{title}</h1>

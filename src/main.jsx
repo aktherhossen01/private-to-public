@@ -15,6 +15,7 @@ import DetailsShow from './pages/DetailsShow/DetailsShow';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
 import About from './pages/About/About';
 import NotFound from './NotFound/NotFound';
+import Service from './Service/Service';
 
 
 const router = createBrowserRouter([
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
         path:'/about',
         loader:()=>fetch('/card.json'),
         element:<PrivateRoute><About></About></PrivateRoute>
+      },
+      {
+        path:'/service',
+        element:<PrivateRoute><Service></Service></PrivateRoute>
       }
     ]
   }
