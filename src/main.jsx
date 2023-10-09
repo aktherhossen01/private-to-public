@@ -14,12 +14,14 @@ import AuthProvider from './AuthProvider/AuthProvider';
 import DetailsShow from './pages/DetailsShow/DetailsShow';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
 import About from './pages/About/About';
+import NotFound from './NotFound/NotFound';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement:<NotFound></NotFound>,
     children:[
       {
         path: '/',

@@ -7,7 +7,7 @@ import toast from 'react-hot-toast';
 
 
 const Login = () => {
-  const {createLogin}= useContext(AuthContext)
+  const {createLogin,googleSignIn}= useContext(AuthContext)
   const location = useLocation()
   const navigate = useNavigate()
   console.log(location);
@@ -36,6 +36,11 @@ const Login = () => {
     .catch(err=>{
       toast.error(err.message)
     })
+
+  }
+  const handleGoogle =(media)=>{
+    media()
+    
   }
     return (
         <div>
@@ -61,6 +66,10 @@ const Login = () => {
           </label>
           <input type="password" name="password" placeholder="password" className="input input-bordered" required />
           
+        </div>
+        <div className="flex items-center gap-5"> 
+          <h1 className="font-bold">Google SignIn</h1>
+          <button onClick={()=>handleGoogle(googleSignIn)} className="btn btn-outline">Google</button>
         </div>
         <h1 className="text-lg font-semibold">Do not have an account ? <Link className="underline text-blue-600" to={'/registration'}>Register</Link></h1>
         <div className="form-control mt-6">
