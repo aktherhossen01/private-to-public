@@ -7,6 +7,8 @@ import { AuthContext } from "../../AuthProvider/AuthProvider";
 const Registration = () => {
     const {signUp}= useContext(AuthContext)
     const [error,setError]= useState('')
+    const [succ,setSucc]= useState('')
+    
    
 
     const handleRegister = e=>{
@@ -26,7 +28,10 @@ const Registration = () => {
 
         
        signUp(email,password)
-       .then(res =>console.log(res.user))
+       .then(res =>{
+        setSucc('successfully')
+        console.log(res.user)
+       })
        .catch(err =>console.log(err))
     }
 
@@ -42,6 +47,7 @@ const Registration = () => {
     <div className="text-center  lg:text-left mb-5">
       <h1 className="text-5xl  font-bold design-color">Registration  now!</h1>
       <p className="text-center font-semibold text2">{error}</p>
+      <p className="text-center font-semibold text2">{succ}</p>
     </div>
     <div className="card flex-shrink-0 w-full  max-w-xl shadow-2xl bg-base-100">
       <form onSubmit={handleRegister} className="card-body">
